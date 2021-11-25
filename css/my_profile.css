@@ -1,0 +1,113 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 600px;
+    border: black solid 1px;
+}
+.hero-container{
+    background-color: gray;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 25px;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    margin: 50px;
+}
+.logo{
+    margin: 20px;
+    margin-left: 50px;
+    height: 100px;
+    width: 100px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: cornflowerblue 0px 0px 2px 5px;
+}
+.hero-man{
+    text-align: center;
+}
+.hero-man>h1{
+    font-size: 40px;
+    
+}
+.hero-man>button{
+    width: 90px;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    background-color: gray;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: white;
+    border-top-left-radius: 15px;
+}
+.hero-man>div{
+    margin-bottom: 35px;
+}
+.about-me-container{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    
+}
+.info-img{
+    margin: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.info-img>img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50px;
+    box-shadow: grey 4px 4px 4px 5px;
+
+}
+.info-img{
+    margin-right: 37px;
+}
+
+  
+.about-me-container>h3{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 33px;
+}
+.card{
+    width: 280px;
+    border: 1px solid gray;
+}
+.course-container{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+}
+.card-layout{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    
+}
+.card>image{
+    width: 200px;
+    text-align: center;
+    margin: 5%;
+
+}
